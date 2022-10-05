@@ -44,14 +44,14 @@ header nav{
 }
 
 
-/* Navbar01 */
+/* Navbar Left */
 #xbox-logo{
     height: 2.5rem;
     margin-right: 20px;
     
 }
 
-header nav .navbar1{
+.navbar-left{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -60,47 +60,47 @@ header nav .navbar1{
     margin-right: 50px;
 }
 
-header nav .navbar1 ul{
+.navbar-left ul{
     display: flex;
     flex-direction: row;
 }
 
-header nav .navbar1 ul li{
+.navbar-left ul li{
     padding: 0 20px;
 }
 
-header nav .navbar1 ul li a:hover{
+.navbar-left ul li a:hover{
     border-bottom: 2px solid black;
     padding-bottom: 3px;
 }
 
 
-/* Navbar02 */
-#icons{
+/* Navbar Right */
+.icons{
     width: 1.9rem;
     margin: 0 10px;
 }
 
-#login-icon{
+.login-icon{
     width: 3.5rem;
     margin: 0 10px;
 }
 
-header nav .navbar2 ul{
+.navbar-right ul{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-header nav .navbar2 ul li{
+.navbar-right ul li{
     padding: 0 15px;
 }
 
-header nav .navbar2 ul li a {
+.navbar-right ul li a {
     display: flex;
     align-items: center;
 }
-header nav .navbar2 ul li a:hover{
+.navbar-right ul li a:hover{
     border-bottom: 2px solid black;
     padding-bottom: 3px;
 }
