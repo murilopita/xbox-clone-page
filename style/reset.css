@@ -1,0 +1,10 @@
+html, body, ul, a{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: #262626;
+    font-size: 62.5%;
+}
