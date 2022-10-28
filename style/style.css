@@ -1,8 +1,9 @@
 @import url(reset.css);
 
+
 header{
     max-width: 1925px;
-    height:auto;
+    height:54px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -83,7 +84,103 @@ header nav{
     display: flex;
     align-items: center;
 }
-.navbar-right ul li a:hover{
+.navbar-right ul li a span:hover{
     border-bottom: 2px solid black;
     padding-bottom: 3px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.hero-box{
+    width: 1925px;
+    height: 900px;
+    background-color: #333333;
+    background-image: url(../assets/nba-cover.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+.hero-info{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40%;
+    left: 5%;
+}
+
+.hero-info h1{
+    font-size: 50px;
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 70px;
+}
+
+.btn{
+    display: flex;
+    width: 225px;
+    height: 30px;
+    padding: 15px 0px;
+    background-color: #8BD80A;
+    color: #0A5115;
+
+    font-weight: 900;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.btn span{
+    margin-right:15px ;
+}
+
+.btn span:hover{
+    border-bottom: 2px solid #0A5115;
+}
+
+.cta-nav{
+    width: 1600px;
+    height:142px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    justify-content: space-around;
+
+    border: 1px solid red; /* LINHA GUIA APAGAR DEPOIS */
+}
+.cta-item{
+    align-items: center;
+}
+.cta-item a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #107C10;
+
+}
+
+.cta-item span:hover{
+    border-bottom: 2px solid #0A5115;
+}
+
+.cta-item img{
+    width: 72px;
+    height: 56px;
+    margin-bottom: 10px;
+    
 }
